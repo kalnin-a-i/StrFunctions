@@ -1,0 +1,82 @@
+\hypertarget{main_8cpp}{}\doxysection{main.\+cpp File Reference}
+\label{main_8cpp}\index{main.cpp@{main.cpp}}
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$assert.\+h$>$}\newline
+Include dependency graph for main.\+cpp\+:
+% FIG 0
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{main_8cpp_a27c2363ff410677750054234cd2d0018}{My\+Strlen}} (char $\ast$s)
+\item 
+void \mbox{\hyperlink{main_8cpp_a2b9d8e23b39b1aebccf7618019a8f9ac}{My\+Strcpy}} (char $\ast$where, char $\ast$what)
+\item 
+char $\ast$ \mbox{\hyperlink{main_8cpp_a9d274c2dd7b0249c35505497db913031}{My\+Strchr}} (char $\ast$str, int symbol)
+\item 
+char $\ast$ \mbox{\hyperlink{main_8cpp_a27fe64732932e4571315748b17ebc340}{My\+Strcat}} (char $\ast$str1, char $\ast$str2)
+\item 
+\mbox{\Hypertarget{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}\label{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}} 
+int {\bfseries main} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{main_8cpp_a27fe64732932e4571315748b17ebc340}\label{main_8cpp_a27fe64732932e4571315748b17ebc340}} 
+\index{main.cpp@{main.cpp}!MyStrcat@{MyStrcat}}
+\index{MyStrcat@{MyStrcat}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{MyStrcat()}{MyStrcat()}}
+{\footnotesize\ttfamily char$\ast$ My\+Strcat (\begin{DoxyParamCaption}\item[{char $\ast$}]{str1,  }\item[{char $\ast$}]{str2 }\end{DoxyParamCaption})}
+
+Concatinate 2 strings 
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em str1} & 1st string \\
+\hline
+\mbox{\texttt{ in}}  & {\em str2} & 2d string \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+pointer to the 1st string concatinated with second string 
+\end{DoxyReturn}
+\mbox{\Hypertarget{main_8cpp_a9d274c2dd7b0249c35505497db913031}\label{main_8cpp_a9d274c2dd7b0249c35505497db913031}} 
+\index{main.cpp@{main.cpp}!MyStrchr@{MyStrchr}}
+\index{MyStrchr@{MyStrchr}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{MyStrchr()}{MyStrchr()}}
+{\footnotesize\ttfamily char$\ast$ My\+Strchr (\begin{DoxyParamCaption}\item[{char $\ast$}]{str,  }\item[{int}]{symbol }\end{DoxyParamCaption})}
+
+Searching first entrance of symbol in string 
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em str} & string where searching \\
+\hline
+\mbox{\texttt{ in}}  & {\em symbol} & symbol that searching \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+pointer to the 1st entrance of symbol in string 
+\end{DoxyReturn}
+\mbox{\Hypertarget{main_8cpp_a2b9d8e23b39b1aebccf7618019a8f9ac}\label{main_8cpp_a2b9d8e23b39b1aebccf7618019a8f9ac}} 
+\index{main.cpp@{main.cpp}!MyStrcpy@{MyStrcpy}}
+\index{MyStrcpy@{MyStrcpy}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{MyStrcpy()}{MyStrcpy()}}
+{\footnotesize\ttfamily void My\+Strcpy (\begin{DoxyParamCaption}\item[{char $\ast$}]{where,  }\item[{char $\ast$}]{what }\end{DoxyParamCaption})}
+
+Copying string what to string where 
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em where} & string where copying \\
+\hline
+\mbox{\texttt{ in}}  & {\em what} & string that copying \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{main_8cpp_a27c2363ff410677750054234cd2d0018}\label{main_8cpp_a27c2363ff410677750054234cd2d0018}} 
+\index{main.cpp@{main.cpp}!MyStrlen@{MyStrlen}}
+\index{MyStrlen@{MyStrlen}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{MyStrlen()}{MyStrlen()}}
+{\footnotesize\ttfamily int My\+Strlen (\begin{DoxyParamCaption}\item[{char $\ast$}]{s }\end{DoxyParamCaption})}
+
+computes length of string 
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em s} & pointer to string \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+length of string s 
+\end{DoxyReturn}
